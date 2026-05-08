@@ -1,0 +1,20 @@
+@import url('./variables/colors.css');
+
+.container {
+    display: flex;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background: var(--primary-color);
+    margin-right: 10px;
+    border: 1px solid red;
+    box-shadow: 4px 4px var(--primary-color);
+    margin-bottom: 15px;
+}
+
+.last-box {
+    --primary-color: orange;
+    background: var(--primary-color);
+}
